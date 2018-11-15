@@ -141,7 +141,7 @@ model_json = model.to_json()
 with open('model.json', "w") as json_file:
   json_file.write(model_json)
 print('Model saved!')
-model.save_weights('weights.h5')
+model.save_weights('model.h5')
 print('Weights saved!')
 np.save('label_encoder.npy', label_encoder.classes_)
 print('LabelEncoder saved!')

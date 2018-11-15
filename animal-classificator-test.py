@@ -32,7 +32,7 @@ json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 print('Model uploaded!')
 
-loaded_model.load_weights('weights.h5')
+loaded_model.load_weights('model.h5')
 print('Weights uploaded!')
 
 label_encoder = LabelEncoder()

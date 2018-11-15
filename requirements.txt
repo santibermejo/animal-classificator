@@ -2,3 +2,8 @@ sklearn
 keras
 opencv-python
 Pillow
+Flask == 0.11.1
+gevent
+gunicorn
+numpy
+h5py
